@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8D866721AA9898007E4F0E /* LayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8D866621AA9898007E4F0E /* LayerView.swift */; };
 		9FA8255E21AA1AA900AEAC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8255D21AA1AA900AEAC50 /* AppDelegate.swift */; };
 		9FA8256021AA1AA900AEAC50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8255F21AA1AA900AEAC50 /* ViewController.swift */; };
 		9FA8256321AA1AA900AEAC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA8256121AA1AA900AEAC50 /* Main.storyboard */; };
 		9FA8256521AA1AAF00AEAC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA8256421AA1AAF00AEAC50 /* Assets.xcassets */; };
 		9FA8256821AA1AAF00AEAC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FA8256621AA1AAF00AEAC50 /* LaunchScreen.storyboard */; };
+		9FA8257021AA1AD100AEAC50 /* AnimationArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8256F21AA1AD100AEAC50 /* AnimationArchive.swift */; };
+		9FA8257221AA1B8F00AEAC50 /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8257121AA1B8F00AEAC50 /* AnimateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F8D866621AA9898007E4F0E /* LayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerView.swift; sourceTree = "<group>"; };
 		9FA8255A21AA1AA900AEAC50 /* Archive Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Archive Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA8255D21AA1AA900AEAC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FA8255F21AA1AA900AEAC50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		9FA8256421AA1AAF00AEAC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FA8256721AA1AAF00AEAC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FA8256921AA1AAF00AEAC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FA8256F21AA1AD100AEAC50 /* AnimationArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationArchive.swift; sourceTree = "<group>"; };
+		9FA8257121AA1B8F00AEAC50 /* AnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 		9FA8255121AA1AA900AEAC50 = {
 			isa = PBXGroup;
 			children = (
+				9FA8256F21AA1AD100AEAC50 /* AnimationArchive.swift */,
 				9FA8255C21AA1AA900AEAC50 /* Archive Animation */,
 				9FA8255B21AA1AA900AEAC50 /* Products */,
 			);
@@ -56,10 +63,12 @@
 			children = (
 				9FA8255D21AA1AA900AEAC50 /* AppDelegate.swift */,
 				9FA8255F21AA1AA900AEAC50 /* ViewController.swift */,
+				9FA8257121AA1B8F00AEAC50 /* AnimateView.swift */,
 				9FA8256121AA1AA900AEAC50 /* Main.storyboard */,
 				9FA8256421AA1AAF00AEAC50 /* Assets.xcassets */,
 				9FA8256621AA1AAF00AEAC50 /* LaunchScreen.storyboard */,
 				9FA8256921AA1AAF00AEAC50 /* Info.plist */,
+				9F8D866621AA9898007E4F0E /* LayerView.swift */,
 			);
 			path = "Archive Animation";
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA8256021AA1AA900AEAC50 /* ViewController.swift in Sources */,
+				9FA8257021AA1AD100AEAC50 /* AnimationArchive.swift in Sources */,
+				9F8D866721AA9898007E4F0E /* LayerView.swift in Sources */,
+				9FA8257221AA1B8F00AEAC50 /* AnimateView.swift in Sources */,
 				9FA8255E21AA1AA900AEAC50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
